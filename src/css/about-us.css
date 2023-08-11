@@ -24,7 +24,7 @@ img {
   }
 }
 @media screen and (min-width: 1440px) {
-  .container {
+  .section-about-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +34,6 @@ img {
   .section-about {
     background-color: #f7faff;
     padding-top: 64px;
-    padding-bottom: 64px;
   }
   .section-about-wraper {
     position: relative;
@@ -115,7 +114,6 @@ img {
   .section-about-list li:not(:last-child) {
     margin-bottom: 30px;
   }
-  
 }
 @media screen and (min-width: 768px) {
   .section-about-wraper {
