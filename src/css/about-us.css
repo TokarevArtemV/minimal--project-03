@@ -143,6 +143,7 @@ img {
     (min-resolution: 2dppx) {
     .section-about-background-img {
       background-image: url(../img/product-2-mob-2x.jpg);
+      background-size: contain;
     }
   }
 }
