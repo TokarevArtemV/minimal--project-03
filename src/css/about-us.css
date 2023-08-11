@@ -21,7 +21,13 @@ img {
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1350px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 @media screen and (max-width: 767px) {
@@ -32,6 +38,7 @@ img {
   }
   .section-about-wraper {
     position: relative;
+    padding-bottom: 64px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -108,20 +115,23 @@ img {
   .section-about-list li:not(:last-child) {
     margin-bottom: 30px;
   }
-  .section-about-list li:last-child {
-    padding-bottom: 64px;
-  }
+  
 }
 @media screen and (min-width: 768px) {
   .section-about-wraper {
     padding-bottom: 36px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .section-about-wraper {
     margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1440px) {
   .section-about-wraper {
     padding: 36px 69px;
-    margin: 20px 24px 20px 0px;
+    max-width: 760px;
+    height: 500px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -151,7 +161,6 @@ img {
 }
 @media screen and (min-width: 1440px) {
   .section-about-img {
-    width: 100%;
   }
   .section-about-item-title {
     margin-bottom: 20px;
