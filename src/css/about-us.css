@@ -28,15 +28,21 @@ img {
   .section-about {
     background-color: #f7faff;
     padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .section-about-wraper {
+    position: relative;
   }
 }
 @media screen and (min-width: 768px) {
+  .section-about {
+    padding-bottom: 100px;
+  }
   .section-about-wraper {
     background-color: #f7faff;
     padding: 36px 64px;
   }
 }
-
 .section-about-title {
   position: relative;
   color: var(--blue-font, #0a224a);
@@ -120,9 +126,15 @@ img {
 }
 @media screen and (max-width: 767px) {
   .section-about-img {
-    display: none;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
-  .section-about-background-img {
+  /* .section-about-background-img {
+    width: 100vw;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
@@ -135,7 +147,7 @@ img {
     .section-about-background-img {
       background-image: url(../img/product-2-mob-2x.jpg);
     }
-  }
+  } */
 }
 @media screen and (min-width: 1440px) {
   .section-about-img {
