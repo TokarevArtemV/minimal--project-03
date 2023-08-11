@@ -134,7 +134,8 @@ img {
   }
   .section-about-background-img {
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: top center;
+    background-size: contain;
     height: 400px;
     background-image: url(../img/product-2-mob-1x.jpg);
   }
@@ -143,7 +144,6 @@ img {
     (min-resolution: 2dppx) {
     .section-about-background-img {
       background-image: url(../img/product-2-mob-2x.jpg);
-      background-size: contain;
     }
   }
 }
